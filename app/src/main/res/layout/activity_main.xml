@@ -1,0 +1,128 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="2"
+    android:padding="16dp">
+
+    <!-- Categoría: Animales -->
+    <RelativeLayout
+        android:id="@+id/category_animals"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/category_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Animales"
+            android:textSize="18sp" />
+
+        <!-- Otros elementos o personalizaciones que desees agregar -->
+
+    </RelativeLayout>
+
+    <!-- Categoría: Anime -->
+    <RelativeLayout
+        android:id="@+id/category_anime"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@drawable/category_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anime"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"/>
+
+        <!-- Otros elementos o personalizaciones que desees agregar -->
+
+    </RelativeLayout>
+
+    <!-- Categoría: Coches -->
+    <RelativeLayout
+        android:id="@+id/category_cars"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@drawable/category_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coches"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"/>
+
+        <!-- Otros elementos o personalizaciones que desees agregar -->
+
+    </RelativeLayout>
+
+    <!-- Categoría: Deporte -->
+    <RelativeLayout
+        android:id="@+id/category_sports"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@drawable/category_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deporte"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"/>
+
+        <!-- Otros elementos o personalizaciones que desees agregar -->
+
+    </RelativeLayout>
+
+    <!-- Categoría: Juegos -->
+    <RelativeLayout
+        android:id="@+id/category_games"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@drawable/category_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Juegos"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"/>
+
+        <!-- Otros elementos o personalizaciones que desees agregar -->
+
+    </RelativeLayout>
+
+    <!-- Categoría: Películas -->
+    <RelativeLayout
+        android:id="@+id/category_movies"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@drawable/category_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Películas"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"/>
+
+        <!-- Otros elementos o personalizaciones que desees agregar -->
+
+    </RelativeLayout>
+
+</GridLayout>
